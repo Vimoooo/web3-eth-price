@@ -2,7 +2,7 @@ const axios = require("axios");
 
 async function getETHPrice() {
   try {
-    const { data } = await axios.get(
+    const {  } = await axios.get(
       "https://api.coingecko.com/api/v3/simple/price?ids=ethereum&vs_currencies=usd"
     );
 
