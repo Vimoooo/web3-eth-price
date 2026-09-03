@@ -1,4 +1,4 @@
-const  = require("axios");
+const axios = require("axios");
 
 async function getETHPrice() {
   try {
