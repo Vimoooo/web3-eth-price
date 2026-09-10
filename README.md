@@ -8,7 +8,7 @@ async function getETHPrice() {
 
     console.log(`ETH Price: $${data.ethereum.usd}`);
   } catch {
-    console.log("Failed to fetch ETH price.");
+    console.log(" to fetch ETH price.");
   }
 }
 
